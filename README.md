@@ -96,7 +96,6 @@ ros2 launch centerpoint centerpoint_livox.launch.py
 ```bash
 source /opt/ros/humble/setup.bash
 source ~/workspace/centerpoint-livox_ws/install/setup.bash
-source ~/workspace/livox_detection_ws/install/setup.bash
 ros2 launch centerpoint_livox_adapter centerpoint_livox_with_adapter.launch.py
 ```
 
